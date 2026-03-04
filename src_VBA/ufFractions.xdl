@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="3" dlg:id="ufFractions" dlg:left="0" dlg:top="0" dlg:width="181" dlg:height="77" dlg:closeable="true" dlg:moveable="true" dlg:title="Gravel/sand fractions">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xffffff" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:button dlg:style-id="0" dlg:id="cbAccept" dlg:tab-index="0" dlg:left="146" dlg:top="43" dlg:width="32" dlg:height="14" dlg:tabstop="true" dlg:value="Accept" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="0" dlg:id="CommandButton1" dlg:tab-index="1" dlg:left="146" dlg:top="59" dlg:width="32" dlg:height="14" dlg:tabstop="true" dlg:value="Cancel" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label1" dlg:tab-index="2" dlg:left="11" dlg:top="4" dlg:width="164" dlg:height="28" dlg:value="To apply the two-fraction equation of Wilcock (2001), you must supply gravel and sand fractions in channel bed as well as an estimate of surface grain size D65.  Click &quot;Accept&quot; to continue upon finishing the required input." dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label2" dlg:tab-index="3" dlg:left="7" dlg:top="44" dlg:width="107" dlg:height="7" dlg:value="Estimate of surface grain size D65 (mm)" dlg:align="right" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label3" dlg:tab-index="4" dlg:left="7" dlg:top="55" dlg:width="107" dlg:height="7" dlg:value="Fraction of gravel in channel bed" dlg:align="right" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label4" dlg:tab-index="5" dlg:left="7" dlg:top="65" dlg:width="107" dlg:height="7" dlg:value="Fraction of sand in channel bed" dlg:align="right" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:textfield dlg:style-id="2" dlg:id="tbD65" dlg:tab-index="6" dlg:left="117" dlg:top="43" dlg:width="21" dlg:height="11" dlg:tabstop="true" dlg:align="center"/>
+  <dlg:textfield dlg:style-id="2" dlg:id="tbGravel" dlg:tab-index="7" dlg:left="117" dlg:top="53" dlg:width="21" dlg:height="11" dlg:tabstop="true" dlg:align="center"/>
+  <dlg:textfield dlg:style-id="2" dlg:id="tbSand" dlg:tab-index="8" dlg:disabled="true" dlg:left="117" dlg:top="64" dlg:width="21" dlg:height="11" dlg:tabstop="true" dlg:align="center"/>
+ </dlg:bulletinboard>
+</dlg:window>

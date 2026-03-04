@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="4" dlg:id="ufDischarge" dlg:left="0" dlg:top="0" dlg:width="183" dlg:height="164" dlg:closeable="true" dlg:moveable="true" dlg:title="Discharge">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="8" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="3" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="8" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="4" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:button dlg:style-id="0" dlg:id="cbAccept" dlg:tab-index="0" dlg:left="64" dlg:top="146" dlg:width="32" dlg:height="14" dlg:tabstop="true" dlg:value="Accept" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="0" dlg:id="CommandButton1" dlg:tab-index="1" dlg:left="100" dlg:top="146" dlg:width="32" dlg:height="14" dlg:tabstop="true" dlg:value="Cancel" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label1" dlg:tab-index="2" dlg:left="4" dlg:top="4" dlg:width="174" dlg:height="103" dlg:value="The calculation can be carried out for&#x0d;&#x0a;&#x0d;&#x0a;      (a). bedload transport rate for a single discharge;&#x0d;&#x0a;      (b). bedload transport rate rating curve between a minimum&#x0d;&#x0a;            and a maximum discharge;&#x0d;&#x0a;      (c). average bedload transport rate during a period of time&#x0d;&#x0a;            and bedload transport rate rating curve.&#x0d;&#x0a;&#x0d;&#x0a;You will need a single discharge for case (a), a minimum and a maximum discharge for case (b), and a flow duration curve for case (c).  You can also use daily discharge record for the specified period in place of flow duration curve for case (c).&#x0d;&#x0a;&#x0d;&#x0a;Please select your option and click &quot;Accept&quot; to continue." dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:radiogroup>
+   <dlg:radio dlg:style-id="1" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obA" dlg:tab-index="3" dlg:left="4" dlg:top="18" dlg:width="8" dlg:height="11" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+   <dlg:radio dlg:style-id="2" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obB" dlg:tab-index="4" dlg:left="4" dlg:top="24" dlg:width="8" dlg:height="11" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+   <dlg:radio dlg:style-id="2" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obC" dlg:tab-index="5" dlg:left="4" dlg:top="38" dlg:width="8" dlg:height="11" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+  </dlg:radiogroup>
+  <dlg:frame dlg:style-id="3" dlg:id="Frame1" dlg:tab-index="6" dlg:left="18" dlg:top="114" dlg:width="142" dlg:height="21">
+   <dlg:title dlg:value="Discharge option"/>
+   <dlg:bulletinboard>
+    <dlg:radiogroup>
+     <dlg:radio dlg:style-id="1" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obDuration" dlg:tab-index="0" dlg:left="4" dlg:top="4" dlg:width="64" dlg:height="11" dlg:tabstop="true" dlg:value=" flow duration curve" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+     <dlg:radio dlg:style-id="1" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obRecord" dlg:tab-index="1" dlg:left="82" dlg:top="4" dlg:width="56" dlg:height="11" dlg:tabstop="true" dlg:value=" discharge record" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+    </dlg:radiogroup>
+   </dlg:bulletinboard>
+  </dlg:frame>
+ </dlg:bulletinboard>
+</dlg:window>

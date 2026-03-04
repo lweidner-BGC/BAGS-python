@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="3" dlg:id="ufMyMsgBox" dlg:left="0" dlg:top="0" dlg:width="244" dlg:height="96" dlg:closeable="true" dlg:moveable="true" dlg:title="BEGS">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="8" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xffffff" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="8" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:text dlg:style-id="0" dlg:id="Prompt" dlg:tab-index="0" dlg:left="11" dlg:top="7" dlg:width="228" dlg:height="57" dlg:value="Label1" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:button dlg:style-id="1" dlg:id="cbYes" dlg:tab-index="1" dlg:left="78" dlg:top="78" dlg:width="28" dlg:height="14" dlg:tabstop="true" dlg:value="Yes" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="1" dlg:id="cbNo" dlg:tab-index="2" dlg:left="110" dlg:top="78" dlg:width="28" dlg:height="14" dlg:tabstop="true" dlg:value="No" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="1" dlg:id="cbCancel" dlg:tab-index="3" dlg:left="142" dlg:top="78" dlg:width="28" dlg:height="14" dlg:tabstop="true" dlg:value="Cancel" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:textfield dlg:style-id="2" dlg:id="tbAnswer" dlg:tab-index="4" dlg:left="14" dlg:top="78" dlg:width="43" dlg:height="11" dlg:tabstop="true"/>
+ </dlg:bulletinboard>
+</dlg:window>

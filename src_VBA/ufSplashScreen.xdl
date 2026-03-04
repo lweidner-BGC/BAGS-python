@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="2" dlg:id="ufSplashScreen" dlg:left="0" dlg:top="0" dlg:width="264" dlg:height="79" dlg:closeable="true" dlg:moveable="true" dlg:title="BAGS">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:text-color="0x0" dlg:font-name="Times New Roman" dlg:font-height="36" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Times New Roman" dlg:font-height="14" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:text dlg:style-id="0" dlg:id="Label3" dlg:tab-index="0" dlg:left="4" dlg:top="7" dlg:width="256" dlg:height="53" dlg:value="Bedload Assessment in Gravel-bedded Streams" dlg:align="center" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label4" dlg:tab-index="1" dlg:left="4" dlg:top="64" dlg:width="256" dlg:height="11" dlg:value="(Version 2008.11) - splash screen not used anymore!" dlg:align="center" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+ </dlg:bulletinboard>
+</dlg:window>

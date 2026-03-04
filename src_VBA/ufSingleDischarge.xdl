@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="3" dlg:id="ufSingleDischarge" dlg:left="0" dlg:top="0" dlg:width="216" dlg:height="136" dlg:closeable="true" dlg:moveable="true" dlg:title="Discharge">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xffffff" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:button dlg:style-id="0" dlg:id="cbAccept" dlg:tab-index="0" dlg:left="132" dlg:top="119" dlg:width="32" dlg:height="14" dlg:tabstop="true" dlg:value="Accept" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="0" dlg:id="CommandButton1" dlg:tab-index="1" dlg:left="167" dlg:top="119" dlg:width="32" dlg:height="14" dlg:tabstop="true" dlg:value="Cancel" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:textfield dlg:style-id="1" dlg:id="tbQw" dlg:tab-index="2" dlg:left="110" dlg:top="97" dlg:width="43" dlg:height="11" dlg:tabstop="true" dlg:align="center"/>
+  <dlg:radiogroup>
+   <dlg:radio dlg:style-id="2" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obCMS" dlg:tab-index="3" dlg:left="14" dlg:top="82" dlg:width="100" dlg:height="11" dlg:tabstop="true" dlg:value=" in cubic meters per second (cms)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+   <dlg:radio dlg:style-id="2" dlg:control-implementation="stardiv.one.form.component.RadioButton" dlg:id="obCFS" dlg:tab-index="4" dlg:left="117" dlg:top="82" dlg:width="90" dlg:height="11" dlg:tabstop="true" dlg:value=" in cubic feet per second (cfs)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:group-name="autoGroup_"/>
+  </dlg:radiogroup>
+  <dlg:text dlg:style-id="2" dlg:id="Label1" dlg:tab-index="5" dlg:left="11" dlg:top="4" dlg:width="199" dlg:height="53" dlg:value="Metric system has been used for calculation and presentation throughout the software.  Due to the fact that all the discharge records in the U.S. are still in cubic feet per second (cfs), however, both metric and imperial units are allowed for discharge during the input process.  You must select a unit BEFORE entering the discharge.&#x0d;&#x0a;&#x0d;&#x0a;Click &quot;Accept&quot; to continue upon finishing." dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="2" dlg:id="Label2" dlg:tab-index="6" dlg:left="18" dlg:top="98" dlg:width="85" dlg:height="11" dlg:value="Enter Discharge to be calculated" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="2" dlg:id="lbUnit" dlg:tab-index="7" dlg:left="160" dlg:top="98" dlg:width="14" dlg:height="11" dlg:value="cms" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+ </dlg:bulletinboard>
+</dlg:window>

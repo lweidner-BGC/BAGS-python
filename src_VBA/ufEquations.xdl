@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="3" dlg:id="ufEquations" dlg:left="0" dlg:top="0" dlg:width="245" dlg:height="132" dlg:closeable="true" dlg:moveable="true" dlg:title="Choose equations for bedload calculation">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="8" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:button dlg:style-id="0" dlg:id="cbAccept" dlg:tab-index="0" dlg:left="192" dlg:top="82" dlg:width="43" dlg:height="14" dlg:tabstop="true" dlg:value="Accept" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="0" dlg:id="cbCancel" dlg:tab-index="1" dlg:left="192" dlg:top="97" dlg:width="43" dlg:height="14" dlg:tabstop="true" dlg:value="Cancel" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label1" dlg:tab-index="2" dlg:left="7" dlg:top="4" dlg:width="231" dlg:height="39" dlg:value="Please select one or more equations for bedload transport calculation.  You will be asked to provide the necessary input data for the calculation upon clicking &quot;Accept&quot;.  Click &quot;Help&quot; if you are unsure as what equation you may use with your available data.  You can also click on the small button in front of a equation to learn the original reference and the input data requirement for using that equation." dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="1" dlg:id="cbParker90" dlg:tab-index="3" dlg:left="21" dlg:top="46" dlg:width="92" dlg:height="11" dlg:tabstop="true" dlg:value=" Parker (surface-based, 1990)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="1" dlg:id="cbParker82" dlg:tab-index="4" dlg:left="21" dlg:top="60" dlg:width="165" dlg:height="11" dlg:tabstop="true" dlg:value=" Parker, Klingeman and McLean (substrate D50-based, 1982)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="1" dlg:id="cbWilcock" dlg:tab-index="5" dlg:left="21" dlg:top="89" dlg:width="147" dlg:height="11" dlg:tabstop="true" dlg:value="Calibrated Wilcock (two-fraction model, 2001)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="1" dlg:id="cbBakke" dlg:tab-index="6" dlg:left="21" dlg:top="117" dlg:width="64" dlg:height="11" dlg:tabstop="true" dlg:value=" Bakke et al. (1999)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:button dlg:style-id="0" dlg:id="cbHelp" dlg:tab-index="7" dlg:left="192" dlg:top="114" dlg:width="43" dlg:height="14" dlg:tabstop="true" dlg:value="Help" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="2" dlg:id="HelpParker90" dlg:tab-index="8" dlg:left="7" dlg:top="48" dlg:width="7" dlg:height="7" dlg:help-text="Click to learn more about Parker (1990)" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="2" dlg:id="HelpParker82" dlg:tab-index="9" dlg:left="7" dlg:top="62" dlg:width="7" dlg:height="7" dlg:help-text="Click to learn more about Parker et al. (1982)" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="2" dlg:id="HelpWilcock" dlg:tab-index="10" dlg:left="7" dlg:top="90" dlg:width="7" dlg:height="7" dlg:help-text="Click to learn more about Wilcock and Crowe (2003)" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="2" dlg:id="HelpBakke" dlg:tab-index="11" dlg:left="7" dlg:top="119" dlg:width="7" dlg:height="7" dlg:help-text="Click to learn more about Baake (????)" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:checkbox dlg:style-id="1" dlg:id="cbPK82" dlg:tab-index="12" dlg:left="21" dlg:top="75" dlg:width="147" dlg:height="11" dlg:tabstop="true" dlg:value=" Parker and Klingeman (substrate based, 1982)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:button dlg:style-id="2" dlg:id="CommandButton1" dlg:tab-index="13" dlg:left="7" dlg:top="76" dlg:width="7" dlg:height="7" dlg:help-text="Click to learn more about Wilcock and Crowe (2003)" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="2" dlg:id="HelpWilcock03" dlg:tab-index="14" dlg:left="7" dlg:top="104" dlg:width="7" dlg:height="7" dlg:help-text="Click to learn more about Baake (????)" dlg:tabstop="true" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:checkbox dlg:style-id="1" dlg:id="cbWilcock03" dlg:tab-index="15" dlg:left="21" dlg:top="103" dlg:width="140" dlg:height="11" dlg:tabstop="true" dlg:value=" Wilcock and Crowe (surface-based, 2003)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+ </dlg:bulletinboard>
+</dlg:window>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="2" dlg:id="ufAvailableInput" dlg:left="0" dlg:top="0" dlg:width="195" dlg:height="192" dlg:closeable="true" dlg:moveable="true" dlg:title="What do you have for input?">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xece9d8" dlg:text-color="0x0" dlg:font-name="Tahoma" dlg:font-height="10" dlg:font-charset="ansi" dlg:font-weight="150" dlg:font-slant="italic"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xece9d8"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:text dlg:style-id="0" dlg:id="Label1" dlg:tab-index="0" dlg:left="11" dlg:top="7" dlg:width="164" dlg:height="11" dlg:value="Please check the available field data and click &quot;OK&quot; for advice." dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbCrossSection" dlg:tab-index="1" dlg:left="18" dlg:top="25" dlg:width="79" dlg:height="11" dlg:tabstop="true" dlg:value=" Channel cross section" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:text dlg:style-id="0" dlg:id="Label2" dlg:tab-index="2" dlg:left="25" dlg:top="37" dlg:width="39" dlg:height="11" dlg:value="If not available" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbWidth" dlg:tab-index="3" dlg:left="68" dlg:top="36" dlg:width="52" dlg:height="11" dlg:tabstop="true" dlg:value=" Bankfull width" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbDuration" dlg:tab-index="4" dlg:left="18" dlg:top="46" dlg:width="66" dlg:height="11" dlg:tabstop="true" dlg:value=" Flow duration curve" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbWsSlope" dlg:tab-index="5" dlg:left="18" dlg:top="57" dlg:width="106" dlg:height="11" dlg:tabstop="true" dlg:value=" Reach average water surface slope" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:text dlg:style-id="0" dlg:id="Label3" dlg:tab-index="6" dlg:left="25" dlg:top="69" dlg:width="39" dlg:height="11" dlg:value="If not available" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbBedSlope" dlg:tab-index="7" dlg:left="68" dlg:top="68" dlg:width="100" dlg:height="11" dlg:tabstop="true" dlg:value=" Reach average channel bed slope" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbSurfSize" dlg:tab-index="8" dlg:left="18" dlg:top="78" dlg:width="90" dlg:height="11" dlg:tabstop="true" dlg:value=" Surface grain size distribution" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbSubSize" dlg:tab-index="9" dlg:left="18" dlg:top="110" dlg:width="98" dlg:height="11" dlg:tabstop="true" dlg:value=" Subsurface grain size distribution" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:button dlg:style-id="1" dlg:id="cbOK" dlg:tab-index="10" dlg:left="64" dlg:top="171" dlg:width="43" dlg:height="14" dlg:tabstop="true" dlg:value="OK" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:button dlg:style-id="1" dlg:id="cbCancel" dlg:tab-index="11" dlg:left="110" dlg:top="171" dlg:width="43" dlg:height="14" dlg:tabstop="true" dlg:value="Cancel" dlg:valign="center" dlg:image-position="top-center"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbSampling" dlg:tab-index="12" dlg:left="18" dlg:top="132" dlg:width="158" dlg:height="11" dlg:tabstop="true" dlg:value=" Bedload sampling results (need at least a few samples)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbDsub50" dlg:tab-index="13" dlg:left="71" dlg:top="121" dlg:width="109" dlg:height="11" dlg:tabstop="true" dlg:value=" Subsurface median grain size (D50)" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:text dlg:style-id="0" dlg:id="Label4" dlg:tab-index="14" dlg:left="25" dlg:top="122" dlg:width="39" dlg:height="11" dlg:value="If not available" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:text dlg:style-id="0" dlg:id="Label5" dlg:tab-index="15" dlg:left="25" dlg:top="90" dlg:width="39" dlg:height="11" dlg:value="If not available" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbSGfraction" dlg:tab-index="16" dlg:left="71" dlg:top="89" dlg:width="116" dlg:height="11" dlg:tabstop="true" dlg:value=" Fractions of gravel and sand on surface" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbD65" dlg:tab-index="17" dlg:left="71" dlg:top="100" dlg:width="87" dlg:height="11" dlg:tabstop="true" dlg:value=" An estimate of surface D65" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:text dlg:style-id="0" dlg:id="Label6" dlg:tab-index="18" dlg:left="25" dlg:top="144" dlg:width="32" dlg:height="11" dlg:value="If available" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbSamplingSize" dlg:tab-index="19" dlg:left="60" dlg:top="142" dlg:width="109" dlg:height="11" dlg:tabstop="true" dlg:value=" Grain size distribution of the samples" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+  <dlg:text dlg:style-id="0" dlg:id="Label7" dlg:tab-index="20" dlg:left="36" dlg:top="154" dlg:width="43" dlg:height="11" dlg:value="If anot vailable" dlg:valign="top" dlg:multiline="true" dlg:tabstop="false"/>
+  <dlg:checkbox dlg:style-id="0" dlg:id="cbSampleGSFraction" dlg:tab-index="21" dlg:left="78" dlg:top="153" dlg:width="109" dlg:height="11" dlg:tabstop="true" dlg:value=" Gravel/sand fractions in the samples" dlg:valign="center" dlg:image-position="top-center" dlg:multiline="true" dlg:checked="false"/>
+ </dlg:bulletinboard>
+</dlg:window>
