@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "bags"
+version = "2008.11"
+description = "Bedload Analysis and Gravel Sediment Transport — Python library"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.22"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bags*"]
